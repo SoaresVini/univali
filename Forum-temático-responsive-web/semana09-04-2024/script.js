@@ -1,6 +1,6 @@
 const titulo = document.getElementsByName('hello')[0];
 const buttonHello = document.getElementById('buttonHello');
-const paragrafo = document.querySelector('.parag'); // Correção aqui
+const paragrafo = document.querySelector('.parag');
 
 buttonHello.addEventListener('click', function() {
     alert('Hello World');
